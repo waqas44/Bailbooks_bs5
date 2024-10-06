@@ -1,3 +1,6 @@
+.header {
+    padding: 30px 0;
+}
 .banner1{ 
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(247,249,250,1) 35%, rgba(235,235,236,1) 100%);
@@ -144,6 +147,24 @@ vertical-align: -.125em;
 -webkit-font-smoothing: antialiased;
 float: right;
 vertical-align: middle;
+width: auto;
 
+}
+.navbar-nav  .dropdown-menu{ 
+border: 0;
+    transition: 0.3s;
+    border-radius: 4px;
+    z-index: 99;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    background: var(--nav-dropdown-background-color);
+}
+
+.dropdown-menu .dropdown-item{
+    margin-right: 30px;
+}
+.dropdown-item:focus, .dropdown-menu .dropdown-item:hover {
+    
+    color: #8F42A9;
+    background: none;
 
 }

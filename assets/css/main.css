@@ -145,7 +145,7 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 30px 0;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -249,6 +249,7 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+  border-bottom: 1px solid ##9A9A9A;
   }
 
   .navmenu a i,
@@ -330,7 +331,7 @@ h6 {
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
-    font-size: 28px;
+    font-size: 38px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
@@ -360,7 +361,9 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
-    padding: 10px 20px;
+    /* padding: 10px 20px;
+   */
+   padding: 10px 0px;
     font-family: var(--nav-font);
     font-size: 17px;
     font-weight: 500;
@@ -369,6 +372,10 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+    margin: 0 20px;
+        text-align: center;
+        border-bottom: 1px solid #9A9A9A;
+        color: #dbdbdb;
   }
 
   .navmenu a i,
@@ -384,18 +391,25 @@ h6 {
     border-radius: 50%;
     transition: 0.3s;
     background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    background-color: color-mix(in srgb, #fff, transparent 30%);
+color: #4154f1;
+
   }
 
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
     background-color: var(--accent-color);
     color: var(--contrast-color);
+    /* background-color: #fafafa;
+    color: #4154f1; */
+
   }
 
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-dropdown-hover-color);
+    color: #ffffff;
   }
 
   .navmenu .active i,
@@ -433,7 +447,7 @@ h6 {
   .mobile-nav-active .mobile-nav-toggle {
     color: #fff;
     position: absolute;
-    font-size: 32px;
+    font-size: 52px;
     top: 15px;
     right: 15px;
     margin-right: 0;
@@ -445,6 +459,7 @@ h6 {
     overflow: hidden;
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
+    background: rgb(143 66 169 / 80%);
     transition: 0.3s;
   }
 
