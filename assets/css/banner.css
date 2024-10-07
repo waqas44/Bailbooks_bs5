@@ -1,6 +1,19 @@
 .header {
     padding: 30px 0;
 }
+
+.btn-main{
+background-color: #8F42A9;
+border:1px solid #8F42A9;
+color: #fff;
+}
+
+.btn-main:hover{
+    background-color: #fff;
+    border:1px solid #8F42A9;
+    color: #8F42A9;
+    }
+
 .banner1{ 
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(247,249,250,1) 35%, rgba(235,235,236,1) 100%);
@@ -167,4 +180,11 @@ border: 0;
     color: #8F42A9;
     background: none;
 
+}
+
+
+@media (max-width: 1200px) {
+    .logo{
+        margin-right: auto ;
+    }
 }
