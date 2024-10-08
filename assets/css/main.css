@@ -15,7 +15,9 @@
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --default-font: 'Segoe UI', 'San Francisco Display', Tahoma, Geneva, Verdana, sans-serif;
   --heading-font: "Nunito",  sans-serif;
+  --heading-font: 'Segoe UI', 'San Francisco Display', Tahoma, Geneva, Verdana, sans-serif;
   --nav-font: "Poppins",  sans-serif;
+  --nav-font: 'Segoe UI', 'San Francisco Display', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -238,13 +240,13 @@ h6 {
     position: relative;
   }
 
-  .navmenu a,
-  .navmenu a:focus {
-    color: var(--nav-color);
+  .navmenu a, .navmenu a:focus{
+    /* color: var(--nav-color); */
+    color: #9A9A9A;
     padding: 18px 12px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -269,6 +271,7 @@ h6 {
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
+    color: #000;
   }
 
   .navmenu .dropdown ul {
@@ -376,7 +379,8 @@ h6 {
     margin: 0 20px;
         text-align: center;
         border-bottom: 1px solid #9A9A9A;
-        color: #dbdbdb;
+        /* color: #dbdbdb; */
+        color: #fff;
   }
 
   .navmenu a i,
@@ -399,7 +403,8 @@ color: #4154f1;
 
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
-    background-color: var(--accent-color);
+    /* background-color: var(--accent-color); */
+    background-color: #4154f1;
     color: var(--contrast-color);
     /* background-color: #fafafa;
     color: #4154f1; */
@@ -411,6 +416,7 @@ color: #4154f1;
   .navmenu .active:focus {
     color: var(--nav-dropdown-hover-color);
     color: #ffffff;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0, 0.4);
   }
 
   .navmenu .active i,
@@ -490,6 +496,7 @@ color: #4154f1;
     transition: 0.3s;
     border-radius: 4px;
     z-index: 99;
+    /* align-items: flex-start; */
   }
 
   .navmenu .listing-dropdown ul li {
@@ -498,10 +505,13 @@ color: #4154f1;
 
   .navmenu .listing-dropdown ul li a,
   .navmenu .listing-dropdown ul li:hover>a {
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding: 10px 8px;
     font-size: 15px;
     color: var(--nav-dropdown-color);
     background-color: var(--nav-dropdown-background-color);
+    text-wrap: wrap;
+    display: block;
   }
 
   .navmenu .listing-dropdown ul li a:hover,
@@ -516,6 +526,22 @@ color: #4154f1;
     top: 100%;
     visibility: visible;
   }
+  .navmenu .txt_1, .navmenu .listing-dropdown ul li a span{ 
+    color: #3D3D3D;
+    
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .navmenu .listing-dropdown ul li a span.heading_m  {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #3D3D3D;
+    font-weight: 600;
+  }
+
+
 }
 
 /* Listing Dropdown - Mobile */
@@ -540,6 +566,13 @@ color: #4154f1;
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
   }
+
+  .txt_1 {
+display: none;
+  }
+  .navmenu .listing-dropdown ul  li.lg_img{
+    display: none;
+      }
 }
 
 /*--------------------------------------------------------------
