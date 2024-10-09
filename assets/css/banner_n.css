@@ -1,0 +1,253 @@
+
+/*--------------------------------------------------------------
+# Banner new Section Start
+--------------------------------------------------------------*/
+.banner_n {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0 60px 0;
+    display: flex;
+    align-items: center;
+    background: url(../img/hero-bg.png) top center no-repeat;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(247,249,250,1) 35%, rgba(235,235,236,1) 100%);
+background: url(/assets/img/bb/greybg.png) repeat-y;
+padding-top: 0px !important;
+  }
+  .banner_n .b_container {
+    /* padding-top: 40px; */
+  }
+  
+  .banner_n h1 {
+    margin: 0;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .banner_n p {
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    margin: 5px 0 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+ .banner_n ul{
+    line-height: 28px;
+    font-size: 16px;
+    color:  #3D3D3D;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+     }
+    
+    
+     .banner_n ul li{
+        list-style: none;
+        
+     }
+     .banner_n ul li:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("assets/images/tick1.png");
+        background-image: url("/assets/img/bb/tick1.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px; /* Adjust the margin as needed */
+        vertical-align: middle;
+      }
+     .banner_n ul li strong{
+        
+     }
+    
+     .banner_n .btn{ 
+    
+     border: 1px solid #8F42A9;
+     color:  #8F42A9;
+     
+        /* font-family: Segoe UI; */
+ font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    
+     }
+
+     
+
+
+  .banner_n .btn-get-started {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+   
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-transform: uppercase;
+
+  }
+  
+  .banner_n .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .banner_n .btn-get-started:hover {
+    color: var(--contrast-color);
+    background: color-mix(in srgb, var(--accent-color), transparent 15%);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner_n .btn-get-started:hover i {
+    transform: translateX(5px);
+  }
+  
+  .banner_n .btn-light{
+border: 1px solid #8F42A9;;
+    background-color: #fff;
+    color: #8F42A9;
+ }
+ .banner_n .btn-light:hover{
+    background-color: #8F42A9;
+    color: #fff;
+ }
+
+ .banner_n .btn-dark{
+
+   }
+   .banner_n .btn-dark:hover{
+      background-color: #fff;
+      color: #8F42A9;
+      border: 1px solid #8F42A9;;
+   }
+
+  .banner_n .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    color: var(--default-color);
+    font-weight: 600;
+  }
+  
+  .banner_n .btn-watch-video i {
+    color: var(--accent-color);
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+  
+  .banner_n .btn-watch-video:hover {
+    color: var(--accent-color);
+  }
+  
+  .banner_n .btn-watch-video:hover i {
+    color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  }
+  
+  .banner_n .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @media (min-width: 1200px) {
+    .b_container{
+        max-width: 1322px;
+      }
+  }
+
+  @media (max-width: 640px) {
+    .banner_n h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .banner_n p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+/*--------------------------------------------------------------
+# Banner new Section End
+--------------------------------------------------------------*/
+
+/* css below remove later */
+
+
+.why_bb{
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.why_bb h2{
+    font-size: 50px;
+    text-align: center;
+   
+    /* font-family: 'Segoe UI', 'San Francisco Display', Tahoma, Geneva, Verdana, sans-serif; */
+    line-height: 66px;
+    color: #000;
+    font-weight: 600;
+
+
+    
+}
+.why_bb .panel{
+    border: 0;
+}
+.why_bb .panel-heading .accordion-toggle:after {
+   /* symbol for "opening" panels */
+   font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+   content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+   float: right;        /* adjust as needed */
+   color: grey;         /* adjust as needed */
+}
+.why_bb .panel-heading .accordion-toggle.collapsed:after {
+   /* symbol for "collapsed" panels */
+   content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.why_bb .panel-heading {
+    background: none;
+    padding-left: 0;
+
+font-size: 27px;
+font-weight: 600;
+line-height: 38px;
+text-align: left;
+
+
+
+}
+.why_bb .panel-body{
+    padding-left: 0;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .logo{
+        margin-right: auto ;
+    }
+}
