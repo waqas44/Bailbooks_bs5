@@ -155,11 +155,13 @@ h6 {
 
 .header .logo {
   line-height: 1;
+
 }
 
 .header .logo img {
-  max-height: 36px;
+  /* max-height: 36px; */
   margin-right: 8px;
+  width: 150px;
 }
 
 .header .logo h1 {
@@ -167,6 +169,20 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+}
+.top_btn{
+  /* flex-md-shrink-0; */
+order: 2;
+}
+.top_btn .btn{
+  padding: 16px 24px;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.top_btn .btn.login{
+  background-color: #fff;
+  color: #000;
 }
 
 .header .btn-getstarted,
@@ -243,7 +259,8 @@ h6 {
   .navmenu a, .navmenu a:focus{
     /* color: var(--nav-color); */
     color: #9A9A9A;
-    padding: 18px 12px;
+    /* padding: 18px 12px; */
+    padding: 10px 10px;
     font-size: 14px;
     font-family: var(--nav-font);
     font-weight: 700;
@@ -334,8 +351,9 @@ h6 {
 /* Navmenu - Mobile */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
-    font-size: 38px;
+    /* color: var(--nav-color); */
+    color: #3D3D3D;
+    font-size: 58px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
