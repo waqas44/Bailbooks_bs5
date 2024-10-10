@@ -1,0 +1,103 @@
+
+/*--------------------------------------------------------------
+# Tabs Section Start
+--------------------------------------------------------------*/
+.tabs_bb{
+     /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(247, 249, 250, 1) 35%, rgba(235, 235, 236, 1) 100%);
+    background: url(/assets/img/bb/greybg.png) repeat-y;} */
+
+    background: linear-gradient(317.52deg, rgba(235, 235, 235, 0.9) 35.36%, rgba(245, 249, 255, 0) 90.6%);
+  
+}
+
+.tabs_bb .container-fluid{
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(247, 249, 250, 1) 35%, rgba(235, 235, 236, 1) 100%);
+    background: url(/assets/img/bb/greybg.png) repeat-y; */
+}
+
+
+.tabs_bb .feature-box {
+    padding: 14px 20px;
+    /* box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1); */
+    transition: 0.3s;
+    height: 100%;
+  }
+  
+  .tabs_bb .feature-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .tabs_bb .feature-box i {
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
+    background: #DEDEDE;
+
+    color: var(--accent-color);
+    color:  #000;
+
+    line-height: 0;
+    padding: 2px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 2px solid #000;
+  }
+  
+  .tabs_bb .feature-box:hover i {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+
+  .tabs_bb .tabs_container .nav-pills .nav-link{
+    background-color:  #F2F2F2;
+    ;
+    margin-right: 1.4rem;
+   
+font-size: 20px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6px;
+text-align: center;
+color: #3D3D3D;
+padding: 12px 20px;
+border-radius: 24px;
+
+
+  }
+  .tabs_bb .tabs_container .nav-pills .nav-link.active{
+background-color: #000;
+color: #fff;
+
+  }
+  .tabs_bb .tab-pane .col-xl-6{
+    padding: 0 40px;
+
+  }
+  .tabs_bb .tab-pane h2{
+  
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: left;
+    color: #000;
+    padding-bottom: 10px;
+    }
+    .tabs_bb .tab-pane p{
+        font-family: Segoe UI;
+font-size: 22px;
+font-weight: 400;
+line-height: 29px;
+text-align: left;
+padding-bottom: 20px;
+    }
+  /*--------------------------------------------------------------
+# Tabs Section End
+--------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+    .tabs_container{
+        max-width: 1322px;
+      }
+  }
