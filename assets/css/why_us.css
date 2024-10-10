@@ -21,12 +21,6 @@
 
   
 
-
-  
-  
-
-
-  
 /*--------------------------------------------------------------
 # Why Us Faq Section
 --------------------------------------------------------------*/
@@ -147,3 +141,52 @@ text-transform: uppercase;
         max-width: 1322px;
       }
   }
+
+  /*--------------------------------------------------------------
+# Pay Option  Section Start
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Pay Option  Section End
+--------------------------------------------------------------*/
+.pay_option{
+  background-color: blue;
+}
+.pay_option img{
+  max-width: 100%;
+}
+
+
+.pay_option h2 {
+
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 66.5px;
+  text-align: left;
+  color: #000;
+  }
+
+  .pay_option p {
+
+    font-family: Segoe UI;
+font-size: 22px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+
+  }
+  .pay_option a  span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .pay_option a i:before {
+    content: "\f135";
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+}
